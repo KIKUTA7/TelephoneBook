@@ -3,21 +3,21 @@ package fop.w5phone;
 public class Entry {
     public String firstName, lastName, phoneNumber;
 
-    private Entry(String first, String last, String num)
+    public Entry(String first, String last, String num)
     {
         firstName = first;
         lastName = last;
         phoneNumber = num;
     }
-    public String getFirstName ()
+     String getFirstName ()
     {
         return firstName;
     }
-    public String getLastName ()
+     String getLastName ()
     {
         return lastName;
     }
-    public String getPhoneNumber ()
+     String getPhoneNumber ()
     {
         return phoneNumber;
     }
