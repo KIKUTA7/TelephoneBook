@@ -5,9 +5,9 @@ public class Entry {
 
     public Entry(String first, String last, String num)
     {
-        firstName = first;
-        lastName = last;
-        phoneNumber = num;
+      if(first != "")  firstName = first;
+      if(last != "")  lastName = last;
+      if(num != "")  phoneNumber = num;
     }
     public String getFirstName ()
     {
