@@ -1,7 +1,7 @@
 package fop.w5phone;
 
 public class Entry {
-    public static String firstName, lastName, phoneNumber;
+    private  String firstName, lastName, phoneNumber;
 
     public Entry(String first, String last, String num)
     {
