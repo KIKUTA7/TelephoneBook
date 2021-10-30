@@ -9,15 +9,15 @@ public class Entry {
         lastName = last;
         phoneNumber = num;
     }
-     String getFirstName ()
+    public String getFirstName ()
     {
         return firstName;
     }
-     String getLastName ()
+    public String getLastName ()
     {
         return lastName;
     }
-     String getPhoneNumber ()
+    public String getPhoneNumber ()
     {
         return phoneNumber;
     }
