@@ -9,16 +9,16 @@ public class Entry {
         lastName = last;
         phoneNumber = num;
     }
-    public String getFirstName (Entry a)
+    public String getFirstName ()
     {
-        return a.firstName;
+        return firstName;
     }
-    public String getLastNameName (Entry a)
+    public String getLastNameName ()
     {
-        return a.lastName;
+        return lastName;
     }
-    public String getPhoneNumber (Entry a)
+    public String getPhoneNumber ()
     {
-        return a.phoneNumber;
+        return phoneNumber;
     }
 }
