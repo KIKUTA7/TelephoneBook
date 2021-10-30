@@ -13,7 +13,7 @@ public class Entry {
     {
         return firstName;
     }
-    public String getLastNameName ()
+    public String getLastName ()
     {
         return lastName;
     }
