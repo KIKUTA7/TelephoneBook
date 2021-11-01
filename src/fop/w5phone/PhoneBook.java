@@ -2,7 +2,7 @@ package fop.w5phone;
 
 public class PhoneBook {
 
-    public Entry[] entries;
+    private Entry[] entries;
 
     public PhoneBook (Entry[] a) {
         entries = a;
